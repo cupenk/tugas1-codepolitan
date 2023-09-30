@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid black;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  margin-top: 10.87rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.header h1 {
+  border: 1px solid black;
+  padding: 1.31rem 2rem;
+}
+
+.gallery {
+  margin-top: 3rem;
+  border: 1px solid #000;
+}
+.pic-1,
+.pic-2,
+.pic-3,
+.pic-4 {
+  display: flex;
+  overflow: hidden;
+}
+
+.gallery .pic-1 img {
+  width: 100%;
+  height: 8.6875rem;
+}
+.pic-1 img:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+.pic-2 img:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+.pic-3 img:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+.pic-4 img:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+.gallery .pic-2 img {
+  height: 13.125rem;
+  width: 100%;
+}
+.gallery .pic-3 img {
+  width: 100%;
+  height: 8.6875rem;
+}
+.gallery .pic-4 img {
+  width: 100%;
+  height: 8.6875rem;
+}
+.gallery .pic-5 img {
+  width: 100%;
+  height: 8.6875rem;
+}
+
+/* ! MODAL IMAGE */
+
+.modal-img {
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.25);
+  height: 68.375rem;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  display: none;
+}
+
+.arr-left,
+.arr-right {
+  position: absolute;
+  align-self: center;
+  cursor: pointer;
+}
+.arr-left {
+  margin-right: 90rem;
+}
+.arr-right {
+  margin-left: 90rem;
+}
+.close {
+  cursor: pointer;
+  position: absolute;
+  margin: 2rem 0 0 90rem;
+  top: 0;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-des {
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 0.3rem;
+  width: 60.875rem;
+  height: 13.875rem;
+  border-radius: 4.0625rem 0rem 0rem 0rem;
+  background: #f1f1f1;
+}
+.modal-des h1 {
+  text-align: center;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 2.12rem;
+}
+.modal-des p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 53.0625rem;
+  margin-top: 0.87rem;
+  margin-left: 3.87rem;
+}
